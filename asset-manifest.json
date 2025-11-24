@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BizMerchant/static/css/main.d4d0b716.css",
-    "main.js": "/BizMerchant/static/js/main.8e178c6f.js",
-    "static/js/453.ab38dfeb.chunk.js": "/BizMerchant/static/js/453.ab38dfeb.chunk.js",
-    "static/media/logo.png": "/BizMerchant/static/media/logo.5ddf1aad4fc5f7d0f3e4.png",
-    "index.html": "/BizMerchant/index.html",
-    "main.d4d0b716.css.map": "/BizMerchant/static/css/main.d4d0b716.css.map",
-    "main.8e178c6f.js.map": "/BizMerchant/static/js/main.8e178c6f.js.map",
-    "453.ab38dfeb.chunk.js.map": "/BizMerchant/static/js/453.ab38dfeb.chunk.js.map"
+    "main.css": "/newRepo/static/css/main.d4d0b716.css",
+    "main.js": "/newRepo/static/js/main.7c17f07e.js",
+    "static/js/453.ab38dfeb.chunk.js": "/newRepo/static/js/453.ab38dfeb.chunk.js",
+    "static/media/logo.png": "/newRepo/static/media/logo.5ddf1aad4fc5f7d0f3e4.png",
+    "index.html": "/newRepo/index.html",
+    "main.d4d0b716.css.map": "/newRepo/static/css/main.d4d0b716.css.map",
+    "main.7c17f07e.js.map": "/newRepo/static/js/main.7c17f07e.js.map",
+    "453.ab38dfeb.chunk.js.map": "/newRepo/static/js/453.ab38dfeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4d0b716.css",
-    "static/js/main.8e178c6f.js"
+    "static/js/main.7c17f07e.js"
   ]
 }
