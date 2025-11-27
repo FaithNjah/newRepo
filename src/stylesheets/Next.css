@@ -1,0 +1,379 @@
+/* ========================================
+   UP NEXT SECTION
+   ======================================== */
+
+.Next-main {
+    background-color: #1E022E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Top Section - Button and Text */
+.Next-main > div:first-child {
+    margin-bottom: 50px;
+}
+
+.Next-main > div:first-child button {
+    color: #efb000;
+    background-color: #460f67;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Next-main > div:first-child button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.8);
+}
+
+.Next-main h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 15px 0;
+    color: white;
+}
+
+.Next-main > div:first-child > p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+/* ========================================
+   BOLD MISSION SECTION
+   ======================================== */
+
+.Bold-Mission {
+    display: flex;
+    gap: 40px;
+    max-width: 1100px;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* Left Side - Mission Statement */
+.Bold-Mission-left {
+    flex: 1;
+    background: linear-gradient(135deg, rgba(70, 15, 103, 0.6) 0%, rgba(30, 2, 46, 0.8) 100%);
+    padding: 20px 20px;  
+    border-radius: 15px;
+    border: 2px solid rgba(196, 116, 243, 0.5);
+    box-shadow: 0 0 25px rgba(196, 116, 243, 0.6);
+    text-align: left;
+}
+
+/* Mission Icon with Gradient Background */
+.mission-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #fbbf24 0%, #a855f7 100%);
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.icon-white {
+    color: #ffffff ;
+}
+
+.Bold-Mission-left img {
+    height: 40px;  
+    width: 40px;
+    margin-bottom: 15px;  
+}
+
+.Bold-Mission-left h3 {
+    font-size: 22px;  
+    font-weight: 900;
+    margin: 10px 0 15px 0;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.Bold-Mission-left > p {
+    font-size: 18px;  
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.Bold-Mission-left hr {
+    border: none;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+    margin: 12px 0;
+}
+
+/* Bullet Points with Custom Colors */
+.Bold-Mission-left > p:nth-last-child(2),
+.Bold-Mission-left > p:last-child {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    margin: 5px 0;
+    position: relative;
+    padding-left: 0;
+}
+
+.Bold-Mission-left > p:nth-last-child(2)::before {
+    content: "●";
+    color: #fbbf24; /* yellow bullet */
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.Bold-Mission-left > p:last-child::before {
+    content: "●";
+    color: #a855f7; /* purple bullet */
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+/* Right Side - How To Participate (NO BORDER) */
+.Bold-Mission-right {
+    flex: 1;
+    padding: 20px 30px;
+    text-align: left;
+}
+
+.Bold-Mission-right > h3 {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0 0 20px 0;
+    color: white;
+    text-align: center;
+}
+
+/* Icon Colors */
+.icon-orange {
+    color: #fb923c;
+}
+
+.icon-yellow {
+    color: #fbbf24;
+}
+
+/* Participate Icons */
+.participate-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: rgba(251, 146, 60, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Participation Steps */
+.one,
+.two,
+.three {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 18px;
+    padding: 15px;
+    background-color: rgba(70, 15, 103, 0.4);
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+    background-color: rgba(70, 15, 103, 0.6);
+    transform: translateX(5px);
+}
+
+.one > div:first-child,
+.two > div:first-child,
+.three > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: rgba(70, 15, 103, 0.8);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.one > div:first-child,
+.two > div:first-child,
+.three > div:first-child {
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: 2px solid rgba(239, 176, 0, 0.3);
+}
+
+.one img,
+.two img,
+.three img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
+.one > div:last-child,
+.two > div:last-child,
+.three > div:last-child {
+    flex: 1;
+}
+
+.one h3,
+.two h3,
+.three h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    color: white;
+}
+
+.one p,
+.two p,
+.three p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+/* Buttons Container */
+.Bold-Mission-right > div:last-child {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.Bold-Mission-right > div:last-child button {
+    flex: 1;
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Bold-Mission-right > div:last-child button:first-child {
+    background: linear-gradient(90deg, #ac56dd 0%, #efb000 100%);
+    color: white;
+    border: none;
+}
+
+.Bold-Mission-right > div:last-child button:first-child:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(166, 75, 218, 0.4);
+}
+
+.Bold-Mission-right > div:last-child button:last-child {
+    background-color: transparent;
+    color: #efb000;
+    border: 2px solid #efb000;
+}
+
+.Bold-Mission-right > div:last-child button:last-child:hover {
+    background-color: #efb000;
+    color: #290f38;
+    transform: translateY(-2px);
+}
+
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablet - 768px and below */
+@media (max-width: 768px) {
+    .Next-main h1 {
+        font-size: 28px;
+    }
+    
+    .Next-main > div:first-child > p {
+        font-size: 14px;
+    }
+    
+    .Next-main > div:first-child > p br {
+        display: none;
+    }
+    
+    .Bold-Mission {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .Bold-Mission-left,
+    .Bold-Mission-right {
+        padding: 20px 25px;
+    }
+    
+    .Bold-Mission-right > div:last-child {
+        flex-direction: column;
+    }
+    
+    .Bold-Mission-right > div:last-child button {
+        width: 100%;
+    }
+}
+
+/* Small Mobile - 480px and below */
+@media (max-width: 480px) {
+    .Next-main {
+        padding: 30px 15px;
+    }
+    
+    .Next-main h1 {
+        font-size: 24px;
+    }
+    
+    .Next-main > div:first-child > p {
+        font-size: 13px;
+    }
+    
+    .Bold-Mission-left,
+    .Bold-Mission-right {
+        padding: 18px 20px;
+    }
+    
+    .Bold-Mission-left h3,
+    .Bold-Mission-right > h3 {
+        font-size: 18px;
+    }
+    
+    .one,
+    .two,
+    .three {
+        padding: 12px;
+        gap: 10px;
+    }
+    
+    .one > div:first-child,
+    .two > div:first-child,
+    .three > div:first-child {
+        min-width: 45px;
+        min-height: 45px;
+    }
+    
+    .one img,
+    .two img,
+    .three img {
+        height: 30px;
+        width: 30px;
+    }
+}

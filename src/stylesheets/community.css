@@ -1,0 +1,236 @@
+/* ========================================
+   COMMUNITY TESTIMONIALS SECTION
+   ======================================== */
+
+.community-main {
+    background-color: #1E022E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/* ========================================
+   TOP SECTION
+   ======================================== */
+
+.communityTop {
+    margin-bottom: 40px;
+    max-width: 800px;
+}
+
+.communityTop button {
+    color: #efb000;
+    background-color: #460f67;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.communityTop button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.8);
+}
+
+.communityTop h1 {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 15px 0;
+    color: white;
+    line-height: 1.2;
+}
+
+.communityTop p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+
+/* ========================================
+   TESTIMONIALS GRID - 2x2 Layout
+   ======================================== */
+
+.communityMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* Each Testimonial Box */
+.testimonial-card {
+    background: rgba(55, 8, 82, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid rgb(87, 48, 87);
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(196, 116, 243, 0.4);
+    border-color: rgba(196, 116, 243, 0.5);
+}
+
+
+/* ========================================
+   QUOTE SECTION (TOP PART)
+   ======================================== */
+
+.quote-section {
+    margin-bottom: 20px;
+}
+
+.quote-icon {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.quote-section p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+}
+
+
+/* ========================================
+   FAINT SEPARATOR LINE
+   ======================================== */
+
+.author-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+/* ========================================
+   AUTHOR SECTION (BOTTOM PART)
+   ======================================== */
+
+/* Author Dot instead of Avatar */
+.author-dot {
+    min-width: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot-yellow {
+    color: #fbbf24;
+    font-size: 12px;
+}
+
+.dot-purple {
+    color: #a855f7;
+    font-size: 12px;
+}
+
+/* Name and Title */
+.author-info {
+    flex: 1;
+}
+
+.author-info h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 5px 0;
+}
+
+.author-info p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablet - 768px and below */
+@media (max-width: 768px) {
+    .communityTop h1 {
+        font-size: 32px;
+    }
+    
+    .communityTop p {
+        font-size: 14px;
+    }
+    
+    .communityTop p br {
+        display: none;
+    }
+    
+    .communityMain {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .testimonial-card {
+        padding: 20px;
+    }
+}
+
+/* Small Mobile - 480px and below */
+@media (max-width: 480px) {
+    .community-main {
+        padding: 30px 15px;
+    }
+    
+    .communityTop h1 {
+        font-size: 26px;
+    }
+    
+    .communityTop p {
+        font-size: 13px;
+    }
+    
+    .testimonial-card {
+        padding: 18px;
+    }
+    
+    .quote-section p {
+        font-size: 14px;
+    }
+    
+    .author-info h3 {
+        font-size: 15px;
+    }
+    
+    .author-info p {
+        font-size: 12px;
+    }
+    
+    .dot-yellow,
+    .dot-purple {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,219 @@
+/* ========================================
+   GROWTH & INNOVATION SECTION
+   ======================================== */
+
+.Growth-main {
+    background-color: #1E022E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Top Section - Button and Text */
+.Growth-main > div:first-child {
+    margin-bottom: 40px;
+}
+
+.Growth-main button {
+    color: #efb000;
+    background-color: #460f67;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Growth-main button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.8);
+}
+
+.Growth-main h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 15px 0;
+    color: white;
+}
+
+.Growth-main > div:first-child > p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+
+/* ========================================
+   FOUR PILLARS SECTION
+   ======================================== */
+
+.Four-pillars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.pillar {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgba(70, 15, 103, 0.3);
+    border-radius: 12px;
+    border: 2px solid rgba(53, 4, 53, 0.5);
+    transition: all 0.3s;
+    text-align: left;
+}
+
+.pillar:hover {
+    transform: translateY(-3px);
+    background-color: rgba(70, 15, 103, 0.5);
+}
+
+/* Pillar Icon Container */
+.pillar > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: rgba(70, 15, 103, 0.8);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Logo - Small Size */
+.pillar .logo {
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+}
+
+/* Pillar 1 and 3 - Yellow Shadow (nth-child 1 and 3) */
+.pillar:nth-child(1) > div:first-child,
+.pillar:nth-child(3) > div:first-child {
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: 2px solid rgba(239, 176, 0, 0.3);
+}
+
+/* Pillar 2 and 4 - Purple Shadow (nth-child 2 and 4) */
+.pillar:nth-child(2) > div:first-child,
+.pillar:nth-child(4) > div:first-child {
+    box-shadow: 0 0 15px rgba(196, 116, 243, 0.6);
+    border: 2px solid rgba(196, 116, 243, 0.3);
+}
+
+/* Icon Colors */
+.icon-yellow {
+    color: #fbbf24;
+}
+
+.icon-white {
+    color: #c474f3; /* purple */
+}
+
+.pillar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Pillar Text Content */
+.pillar > div:last-child {
+    flex: 1;
+}
+
+.pillar h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: white;
+}
+
+.pillar p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    line-height: 1.4;
+}
+
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablet - 768px and below */
+@media (max-width: 768px) {
+    .Growth-main h1 {
+        font-size: 32px;
+    }
+    
+    .Growth-main > div:first-child > p {
+        font-size: 14px;
+    }
+    
+    .Four-pillars {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .pillar {
+        padding: 20px;
+    }
+}
+
+/* Small Mobile - 480px and below */
+@media (max-width: 480px) {
+    .Growth-main {
+        padding: 30px 15px;
+    }
+    
+    .Growth-main h1 {
+        font-size: 24px;
+    }
+    
+    .Growth-main > div:first-child > p {
+        font-size: 13px;
+    }
+    
+    .Growth-main > div:first-child > p br {
+        display: none;
+    }
+    
+    .pillar {
+        padding: 15px;
+        gap: 12px;
+    }
+    
+    .pillar > div:first-child {
+        min-width: 45px;
+        min-height: 45px;
+    }
+    
+    .pillar .logo {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .pillar h3 {
+        font-size: 16px;
+    }
+    
+    .pillar p {
+        font-size: 13px;
+    }
+}

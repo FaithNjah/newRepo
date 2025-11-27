@@ -1,0 +1,320 @@
+/* ========================================
+   FOUNDER SECTION
+   ======================================== */
+
+.Founder-main {
+    background-color: #1E022E;
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    padding: 40px 20px;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* ========================================
+   LEFT CONTAINER - Founder Info
+   ======================================== */
+
+.container-left {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-left-first-button {
+    color: #efb000;
+    background-color: #460f67;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    align-self: flex-start;
+}
+
+.container-left-first-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.8);
+}
+
+.container-left > h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 15px 0 25px 0;
+    color: white;
+    line-height: 1.2;
+}
+
+/* Founder Box */
+.founder-left {
+    background: linear-gradient(135deg, rgba(70, 15, 103, 0.6) 0%, rgba(30, 2, 46, 0.8) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid rgba(196, 116, 243, 0.5);
+    box-shadow: 0 0 25px rgba(196, 116, 243, 0.4);
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Founder Profile - Image and Name */
+.founder-left > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.founder-left > div:first-child > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid rgba(239, 176, 0, 0.6);
+    background-color: rgba(70, 15, 103, 0.8);
+    object-fit: cover;
+}
+
+.founder-left > div:first-child > div h3:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 5px 0;
+}
+
+.founder-left > div:first-child > div h3:last-child {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+/* Description */
+.founder-left > div:nth-child(2) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    flex: 1;
+}
+
+.founder-left > div:nth-child(2) p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Bottom Quote */
+.founder-left > div:last-child p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #efb000;
+    font-style: italic;
+    margin: 0;
+}
+
+
+/* ========================================
+   RIGHT CONTAINER - Organizer Info
+   ======================================== */
+
+.container-right {
+    flex: 1;
+    background: linear-gradient(135deg, rgba(70, 15, 103, 0.6) 0%, rgba(30, 2, 46, 0.8) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid rgba(239, 176, 0, 0.5);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.4);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.organizer-button {
+    color: #efb000;
+    background-color: #460f67;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    align-self: center;
+}
+
+.organizer-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.8);
+}
+
+.container-right > h3:first-of-type {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 10px 0;
+    color: white;
+}
+
+/* Large Logo Button */
+.container-right > button:not(.organizer-button) {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(70, 15, 103, 0.8);
+    border: 2px solid rgba(239, 176, 0, 0.6);
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: 900;
+    color: #efb000;
+    cursor: pointer;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.container-right > button:not(.organizer-button):hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(239, 176, 0, 0.6);
+}
+
+.container-right > h3:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: white;
+    line-height: 1.4;
+}
+
+.container-right > p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin: 15px 0;
+    flex: 1;
+}
+
+/* Bottom Section - Africa & 2025 */
+.right-bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.container-right-left,
+.container-right-right {
+    flex: 1;
+    text-align: center;
+}
+
+.yellow-bold {
+    color: #efb000;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0 0 8px 0;
+}
+
+.container-right-left p,
+.container-right-right p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablet - 768px and below */
+@media (max-width: 768px) {
+    .Founder-main {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .container-left > h1 {
+        font-size: 30px;
+    }
+    
+    .founder-left > div:nth-child(2) p br,
+    .container-right > p br {
+        display: none;
+    }
+    
+    .founder-left,
+    .container-right {
+        padding: 20px;
+    }
+}
+
+/* Small Mobile - 480px and below */
+@media (max-width: 480px) {
+    .Founder-main {
+        padding: 30px 15px;
+    }
+    
+    .container-left > h1 {
+        font-size: 26px;
+    }
+    
+    .container-left > h1 br {
+        display: none;
+    }
+    
+    .founder-left,
+    .container-right {
+        padding: 18px;
+    }
+    
+    .founder-left > div:first-child > img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .founder-left > div:first-child > div h3:first-child {
+        font-size: 16px;
+    }
+    
+    .founder-left > div:first-child > div h3:last-child {
+        font-size: 12px;
+    }
+    
+    .container-right > button:not(.organizer-button) {
+        width: 60px;
+        height: 60px;
+        font-size: 28px;
+    }
+    
+    .container-right > h3:nth-of-type(2) {
+        font-size: 16px;
+    }
+    
+    .yellow-bold {
+        font-size: 20px;
+    }
+}

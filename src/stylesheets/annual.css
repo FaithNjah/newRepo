@@ -1,0 +1,436 @@
+/* ========================================
+   ANNUAL EVENTS SECTION
+   ======================================== */
+
+.annual-main {
+    background-color: #1E022E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/* ========================================
+   TOP SECTION
+   ======================================== */
+
+.top {
+    margin-bottom: 40px;
+    max-width: 900px;
+}
+
+.top button {
+    color: #efb000;
+    background-color: #460f67;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.top button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.8);
+}
+
+.top h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 15px 0;
+    color: white;
+}
+
+.top p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+
+/* ========================================
+   MAIN SECTION - LEFT & RIGHT
+   ======================================== */
+
+.main {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+
+/* ========================================
+   LEFT SIDE
+   ======================================== */
+
+.left {
+    flex: 1;
+    text-align: left;
+}
+
+.first-left-button {
+    background-color: rgb(89, 53, 33);
+    color: #8437b0;
+    border: 2px solid rgb(89, 53, 33);
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+.first-left-button:hover {
+    background-color: rgb(110, 65, 40);
+    transform: translateY(-2px);
+}
+
+.left h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 15px 0;
+    color: white;
+}
+
+.left > p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* Container - Reduced Size */
+.container {
+    background: rgba(55, 8, 82, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(87, 48, 87);
+    margin-bottom: 25px;
+}
+
+.container h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    color: white;
+}
+
+.container p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.container span {
+    color: #efb000;
+    font-weight: 600;
+}
+
+.attendees {
+    font-size: 14px;
+    font-weight: 700;
+    color: #c474f3;
+    margin-top: 12px;
+}
+
+/* Second Button */
+.second-button {
+    background: linear-gradient(90deg, #ac56dd 0%, #efb000 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.second-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(166, 75, 218, 0.4);
+}
+
+
+/* ========================================
+   RIGHT SIDE - Reduced Size
+   ======================================== */
+
+.right {
+    flex: 1;
+    background: rgba(55, 8, 82, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid rgb(87, 48, 87);
+    text-align: center;
+}
+
+.right button {
+    color: #efb000;
+    background-color: #460f67;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(239, 176, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.right button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 176, 0, 0.8);
+}
+
+.right h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 15px 0;
+    color: white;
+}
+
+.right img {
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    background-color: rgba(70, 15, 103, 0.4);
+    border-radius: 12px;
+    margin: 15px 0;
+    border: 1px solid rgba(87, 48, 87, 0.5);
+}
+
+.right p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+
+/* ========================================
+   ICON STYLES
+   ======================================== */
+
+/* Icon Colors */
+.icon-yellow {
+    color: #fbbf24;
+}
+
+.icon-gradient {
+    background: linear-gradient(135deg, #fbbf24 0%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Future Icon - Large Calendar in Circle */
+.future-icon {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    margin-left: -10px;
+}
+
+.large-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #fbbf24 0%, #a855f7 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.5);
+}
+
+.large-icon svg {
+    font-size: 28px !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+/* Event Details Grid - Brought Closer Together */
+.event-details {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+}
+
+.detail-item svg {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.detail-label {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.detail-value {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.anticipate-text {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablet - 768px and below */
+@media (max-width: 768px) {
+    .top h1 {
+        font-size: 28px;
+    }
+    
+    .top p {
+        font-size: 14px;
+    }
+    
+    .top p br,
+    .left > p br,
+    .container p br,
+    .right p br,
+    .anticipate-text br {
+        display: none;
+    }
+    
+    .main {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .first-left-button {
+        width: 100%;
+    }
+    
+    .container {
+        padding: 18px;
+    }
+    
+    .right {
+        padding: 20px;
+    }
+    
+    .large-icon {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .large-icon svg {
+        font-size: 24px !important;
+    }
+    
+    .detail-item svg {
+        font-size: 14px;
+    }
+    
+    .event-details {
+        gap: 20px;
+    }
+}
+
+/* Small Mobile - 480px and below */
+@media (max-width: 480px) {
+    .annual-main {
+        padding: 30px 15px;
+    }
+    
+    .top h1 {
+        font-size: 24px;
+    }
+    
+    .top p {
+        font-size: 13px;
+    }
+    
+    .left h3 {
+        font-size: 20px;
+    }
+    
+    .right h2 {
+        font-size: 24px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    .container h3 {
+        font-size: 16px;
+    }
+    
+    .right {
+        padding: 18px;
+    }
+    
+    .second-button {
+        font-size: 12px;
+        padding: 9px 18px;
+    }
+    
+    .large-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .large-icon svg {
+        font-size: 22px !important;
+    }
+    
+    .event-details {
+        gap: 15px;
+    }
+    
+    .detail-item svg {
+        font-size: 12px;
+    }
+    
+    .detail-value {
+        font-size: 11px;
+    }
+    
+    .detail-label {
+        font-size: 7px;
+    }
+}
