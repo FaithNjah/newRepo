@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/newRepo/static/css/main.d4d0b716.css",
-    "main.js": "/newRepo/static/js/main.7c17f07e.js",
+    "main.css": "/newRepo/static/css/main.5802848b.css",
+    "main.js": "/newRepo/static/js/main.c5396913.js",
     "static/js/453.ab38dfeb.chunk.js": "/newRepo/static/js/453.ab38dfeb.chunk.js",
+    "static/media/founder.jpg": "/newRepo/static/media/founder.06cbfa204a66872e358b.jpg",
     "static/media/logo.png": "/newRepo/static/media/logo.5ddf1aad4fc5f7d0f3e4.png",
     "index.html": "/newRepo/index.html",
-    "main.d4d0b716.css.map": "/newRepo/static/css/main.d4d0b716.css.map",
-    "main.7c17f07e.js.map": "/newRepo/static/js/main.7c17f07e.js.map",
+    "main.5802848b.css.map": "/newRepo/static/css/main.5802848b.css.map",
+    "main.c5396913.js.map": "/newRepo/static/js/main.c5396913.js.map",
     "453.ab38dfeb.chunk.js.map": "/newRepo/static/js/453.ab38dfeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4d0b716.css",
-    "static/js/main.7c17f07e.js"
+    "static/css/main.5802848b.css",
+    "static/js/main.c5396913.js"
   ]
 }
